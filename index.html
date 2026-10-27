@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CyberShield helps you learn practical cybersecurity habits, recognize online threats, and stay safer online.">
+  <meta name="theme-color" content="#08111f">
+  <title>CyberShield | Cybersecurity Awareness Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="CyberShield home">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span>Cyber<span class="accent">Shield</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#threats">Threats</a>
+        <a href="#habits">Safety tips</a>
+        <a href="#tools">Tools</a>
+        <a href="#quiz">Quiz</a>
+        <a class="nav-cta" href="#habits">Stay protected <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> YOUR DIGITAL SAFETY STARTS HERE</p>
+        <h1>Think secure.<br><span class="gradient-text">Live connected.</span></h1>
+        <p class="hero-text">Build safer online habits with clear, practical guidance. Learn to spot digital threats, protect your accounts, and make confident decisions online.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#threats">Explore cyber threats <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#quiz">Test your knowledge</a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-icon" aria-hidden="true">✓</div>
+          <p><strong>Small habits. Stronger security.</strong><br><span>Awareness is your first line of defence.</span></p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a protected digital network">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="shield-glow"></div>
+        <div class="shield-core">
+          <svg viewBox="0 0 120 140" role="img" aria-label="Shield with check mark">
+            <path d="M60 7 L105 24 V61 C105 91 86 116 60 132 C34 116 15 91 15 61 V24 Z" fill="none" stroke="currentColor" stroke-width="4" />
+            <path d="M38 68 L53 83 L84 49" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-dot green"></span> Privacy protected</div>
+        <div class="float-chip chip-bottom"><span class="chip-lock">⌑</span> Secure by habit</div>
+        <span class="visual-node node-one"></span><span class="visual-node node-two"></span><span class="visual-node node-three"></span>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Core security principles">
+      <div class="container trust-items">
+        <span><b>01</b> Protect your identity</span>
+        <span><b>02</b> Verify before you trust</span>
+        <span><b>03</b> Keep devices updated</span>
+        <span><b>04</b> Back up what matters</span>
+      </div>
+    </section>
+
+    <section class="section container" id="threats">
+      <div class="section-heading">
+        <div><p class="eyebrow">KNOW THE RISKS</p><h2>Threats to watch for</h2></div>
+        <p>Recognizing common attack patterns helps you pause, verify, and respond safely.</p>
+      </div>
+      <div class="threat-grid">
+        <article class="threat-card">
+          <div class="card-icon icon-purple" aria-hidden="true">✉</div>
+          <p class="card-kicker">01 / MESSAGES</p>
+          <h3>Phishing</h3>
+          <p>Fake emails, texts, or websites designed to trick you into sharing passwords, payment details, or personal information.</p>
+          <span class="learn-label">Look for urgency, odd links, and unexpected attachments.</span>
+        </article>
+        <article class="threat-card">
+          <div class="card-icon icon-red" aria-hidden="true">⌁</div>
+          <p class="card-kicker">02 / MALICIOUS SOFTWARE</p>
+          <h3>Malware</h3>
+          <p>Software that can steal information, spy on activity, damage files, or give an attacker access to a device.</p>
+          <span class="learn-label">Install trusted software and keep protection enabled.</span>
+        </article>
+        <article class="threat-card">
+          <div class="card-icon icon-orange" aria-hidden="true">▣</div>
+          <p class="card-kicker">03 / DATA LOCKOUT</p>
+          <h3>Ransomware</h3>
+          <p>A type of malware that encrypts files or blocks access and demands payment to restore access.</p>
+          <span class="learn-label">Keep separate backups and report suspicious activity.</span>
+        </article>
+        <article class="threat-card">
+          <div class="card-icon icon-blue" aria-hidden="true">♟</div>
+          <p class="card-kicker">04 / HUMAN TARGETING</p>
+          <h3>Social engineering</h3>
+          <p>Manipulation that persuades people to reveal information, transfer money, or bypass normal security checks.</p>
+          <span class="learn-label">Confirm unusual requests through a trusted channel.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section habits-section" id="habits">
+      <div class="container habits-layout">
+        <div class="habits-intro">
+          <p class="eyebrow">MAKE SECURITY A HABIT</p>
+          <h2>Five habits that make a real difference.</h2>
+          <p>Security doesn't have to be complicated. Start with these repeatable actions and build from there.</p>
+          <a class="text-link" href="#tools">Try the security tools <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="habit-list">
+          <article class="habit-item"><span class="habit-number">01</span><div><h3>Use unique passwords</h3><p>Use long, unique passwords for each account. A reputable password manager can help.</p></div><span class="habit-check" aria-hidden="true">✓</span></article>
+          <article class="habit-item"><span class="habit-number">02</span><div><h3>Turn on multi-factor authentication</h3><p>Add a second verification step, especially for email, banking, and social accounts.</p></div><span class="habit-check" aria-hidden="true">✓</span></article>
+          <article class="habit-item"><span class="habit-number">03</span><div><h3>Pause before clicking</h3><p>Check the sender and domain. Visit important sites using a saved bookmark or typed address.</p></div><span class="habit-check" aria-hidden="true">✓</span></article>
+          <article class="habit-item"><span class="habit-number">04</span><div><h3>Update your devices</h3><p>Install operating-system, browser, and app updates to receive important security fixes.</p></div><span class="habit-check" aria-hidden="true">✓</span></article>
+          <article class="habit-item"><span class="habit-number">05</span><div><h3>Back up important files</h3><p>Keep backups and periodically check that you can restore them when needed.</p></div><span class="habit-check" aria-hidden="true">✓</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="tools">
+      <div class="section-heading">
+        <div><p class="eyebrow">PRACTISE SAFER SECURITY</p><h2>Simple tools for learning</h2></div>
+        <p>These browser-based demonstrations run locally on this page. Never enter a real password.</p>
+      </div>
+      <div class="tools-grid">
+        <article class="tool-card">
+          <div class="tool-heading"><div class="card-icon icon-green" aria-hidden="true">⌘</div><div><p class="card-kicker">TOOL 01</p><h3>Password strength demo</h3></div></div>
+          <p class="tool-description">Check general password characteristics. Your input is not sent to a server, but use a fictional example only.</p>
+          <label for="passwordInput">Try a sample password</label>
+          <div class="password-field"><input id="passwordInput" type="password" autocomplete="off" placeholder="Enter a fictional password"><button id="togglePassword" class="show-button" type="button" aria-label="Show password">Show</button></div>
+          <div class="strength-track" aria-hidden="true"><span id="strengthBar"></span></div>
+          <p class="strength-result" id="strengthResult" aria-live="polite">Enter a sample to see feedback.</p>
+          <ul class="criteria-list" id="criteriaList">
+            <li data-rule="length">At least 12 characters</li><li data-rule="lower">Lowercase and uppercase letters</li><li data-rule="number">Contains a number</li><li data-rule="symbol">Contains a symbol</li>
+          </ul>
+          <p class="fine-print">This is a basic educational estimate, not a full password audit.</p>
+        </article>
+        <article class="tool-card quiz-promo">
+          <div class="tool-heading"><div class="card-icon icon-blue" aria-hidden="true">?</div><div><p class="card-kicker">TOOL 02</p><h3>Quick knowledge check</h3></div></div>
+          <p class="tool-description">Can you identify the safer response to a suspicious message? Take the short quiz and see what you know.</p>
+          <div class="quiz-stat"><span class="quiz-stat-icon" aria-hidden="true">✦</span><div><strong>5 questions</strong><span>Instant feedback with explanations</span></div></div>
+          <a class="button button-primary button-full" href="#quiz">Start the quiz <span aria-hidden="true">→</span></a>
+          <p class="fine-print">For awareness and education only. No personal data is collected.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="container quiz-container">
+        <div class="section-heading">
+          <div><p class="eyebrow">CHECK YOUR KNOWLEDGE</p><h2>Cyber safety quiz</h2></div>
+          <p>Choose the best answer for each question. Read the explanation after you answer.</p>
+        </div>
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-progress-row"><span id="questionCount">QUESTION 1 OF 5</span><span id="scoreDisplay">Score: 0</span></div>
+          <div class="progress-track"><span id="quizProgress"></span></div>
+          <h3 id="questionText">You receive an unexpected message asking you to verify your account immediately. What should you do?</h3>
+          <div class="answer-list" id="answerList">
+            <button class="answer-option" type="button" data-answer="0">Click the link quickly to avoid account closure.</button>
+            <button class="answer-option" type="button" data-answer="1">Verify through the official app or website.</button>
+            <button class="answer-option" type="button" data-answer="2">Reply with your password to confirm your identity.</button>
+            <button class="answer-option" type="button" data-answer="3">Forward it to friends to ask if it looks real.</button>
+          </div>
+          <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+          <div class="quiz-footer"><span id="quizHint">Tip: urgency is a common warning sign.</span><button class="button button-primary" id="nextQuestion" type="button" disabled>Next question →</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta container">
+      <div class="cta-mark" aria-hidden="true">◆</div>
+      <div><p class="eyebrow">STAY CURIOUS. STAY CAUTIOUS.</p><h2>Your security is a daily practice.</h2><p>Share what you learn, keep your software updated, and verify before you trust.</p></div>
+      <a class="button button-primary" href="#home">Back to top ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">◆</span><span>Cyber<span class="accent">Shield</span></span></a>
+      <p>A student-built cybersecurity awareness project.</p>
+      <div class="footer-links"><a href="#threats">Threats</a><a href="#habits">Safety tips</a><a href="#tools">Tools</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> CyberShield. Educational project.</span><span>Learn responsibly. Protect your digital life.</span></div>
+  </footer>
+</body>
+</html>
